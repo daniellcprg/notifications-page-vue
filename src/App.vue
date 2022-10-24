@@ -27,7 +27,7 @@ const markAllAsRead = () => {
           <h1 class="text-[20px] font-extrabold text-veryDarkGreyBlue">
             Notifications
           </h1>
-          <div class="pt-[2px] px-[12px] rounded-[6px] bg-blue">
+          <div class="py-[2px] px-[12px] rounded-[6px] bg-blue">
             <span class="text-white font-extrabold">
               {{
                 notifications.filter((notification) => !notification.read)
