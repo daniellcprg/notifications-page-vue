@@ -1,3 +1,5 @@
+import moment from "moment";
+
 const notifications = [
   {
     user: {
@@ -11,7 +13,7 @@ const notifications = [
     },
     event: "POST_REACTION",
     read: false,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(1, "minute").toString(),
   },
   {
     user: {
@@ -21,7 +23,7 @@ const notifications = [
     },
     event: "FOLLOW",
     read: false,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(5, "minutes").toString(),
   },
   {
     user: {
@@ -35,7 +37,7 @@ const notifications = [
     },
     event: "GROUP_JOINING",
     read: false,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(1, "day").toString(),
   },
   {
     user: {
@@ -50,7 +52,7 @@ const notifications = [
     },
     event: "MESSAGE_SENDING",
     read: true,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(5, "days").toString(),
   },
   {
     user: {
@@ -64,7 +66,7 @@ const notifications = [
     },
     event: "PICTURE_COMMENT",
     read: true,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(1, "week").toString(),
   },
   {
     user: {
@@ -78,7 +80,7 @@ const notifications = [
     },
     event: "POST_REACTION",
     read: true,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(2, "weeks").toString(),
   },
   {
     user: {
@@ -92,7 +94,7 @@ const notifications = [
     },
     event: "GROUP_LEAVING",
     read: true,
-    createdAt: "2020-01-01T00:00:00.000Z",
+    createdAt: moment(new Date()).subtract(2, "weeks").toString(),
   },
 ];
 

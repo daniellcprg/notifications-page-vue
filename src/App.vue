@@ -18,7 +18,7 @@ const markAllAsRead = () => {
     class="flex min-h-screen w-full font-plusJakartaSans bg-[#F9FAFD] sm:pt-[64px] sm:justify-center"
   >
     <main
-      class="flex flex-col w-full px-4 bg-white sm:px-8 sm:max-w-[730px] sm:max-h-[840px] sm:rounded-[15px] sm:overflow-y-auto"
+      class="flex flex-col w-full px-4 bg-white sm:px-8 sm:max-w-[730px] sm:max-h-[840px] sm:rounded-[15px] sm:overflow-y-auto sm:shadow-custom"
     >
       <header
         class="flex justify-between w-full sticky top-0 py-6 z-10 bg-white sm:py-8"
