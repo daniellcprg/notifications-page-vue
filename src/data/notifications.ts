@@ -94,7 +94,7 @@ const notifications = [
     },
     event: "GROUP_LEAVING",
     read: true,
-    createdAt: moment(new Date()).subtract(2, "weeks").toString(),
+    createdAt: moment(new Date()).subtract(3, "weeks").toString(),
   },
 ];
 
