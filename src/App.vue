@@ -15,7 +15,7 @@ const markAllAsRead = () => {
 
 <template>
   <div
-    class="flex min-h-screen w-full font-plusJakartaSans bg-snow sm:pt-[64px] sm:justify-center"
+    class="flex min-h-screen w-full font-plusJakartaSans bg-[#F9FAFD] sm:pt-[64px] sm:justify-center"
   >
     <main
       class="flex flex-col w-full px-4 bg-white sm:px-8 sm:max-w-[730px] sm:max-h-[840px] sm:rounded-[15px] sm:overflow-y-auto"
