@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Notifications Page](https://notifications-page-vue.vercel.app/)
+- Live Site URL: [Notifications Page](https://notifications-page-vue.dconsti.com/)
 
 ## My process
 
